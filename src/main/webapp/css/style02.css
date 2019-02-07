@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+
+/* 
+    Document   : index
+    Created on : 
+    Author     : Slesarenko K.
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    width: 96%;
+    margin-left: 2%;
+}
+header{
+    height: 150px;
+    border-radius: 5px;
+    background: #D74F5A;
+}
+#top-image{
+    height: 130px;
+    width: 550px;
+    top: 20px;
+    background: #D74F5A;
+    position: absolute;
+    left: 5%;
+    border-radius: 5px;
+}
+#user-panel{
+	text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    padding: 10px;
+    background: #D74F5A;
+    border-radius: 5px;
+}
+#user-panel img{
+    width: 40px;
+    height: 35px; 
+}
+
+#main{
+    margin-top: 3px;
+}
+#main .leftAside{
+    float: left;
+    position: relative;
+    width: 250px;
+    background: #FAB5BB;
+    border-radius: 5px;
+    height: 100%;
+}
+#main .leftAside p{
+    width: 96%;
+    margin-left: 2%;
+    text-align: justify;
+}
+#main .leftAside h2{
+    margin: 0px;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 96%;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px 5px 0px 0px;
+    background: #FF6F6F;
+    text-align: center;
+}
+#main .leftAside ul{
+    margin: 0px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 0px;
+    width: 96%;
+    list-style: none;
+}
+#main .leftAside ul li{
+    margin: 0px;
+    cursor: pointer;
+    background: #FF9494;
+    padding: 7px 5px;
+    border: 1px solid #DF1A1A;
+    border-bottom: none;
+}
+#main .leftAside ul li:hover{
+    -moz-transition: all 1s linear 0s;
+    -webkit-transition: all 1s linear 0s;
+    -o-transition: all 1s linear 0s;
+    transition: all 1s linear 0s;
+    background: #FFC8C8;
+    padding-left: 10%;
+}
+#main .leftAside ul li:first-child{
+    
+}
+#main .leftAside ul li:last-child{
+    border-bottom: 1px solid #DF1A1A;
+    border-radius: 0px 0px 5px 5px;
+}
+#main .leftAside a{
+    text-decoration: none;
+    padding: 3px 2px;
+}
+#main article{
+    margin-left: 260px;
+    margin-bottom: 5px;
+    background: #FF6F6F;
+    border: 1px solid #A72E06;
+    border-radius: 5px;
+}
+#main article h1{
+    font-size: 2em;
+    padding: 3px 5px;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+#main article .text-article{
+    padding: 5px;
+    font-size: 15px;
+    background: #FFC8C8;
+}
+#main article .text-article label{
+   margin-right: 10px;
+}
+#main article .fotter-article{
+    height: 23px;
+    background: #FF9494;
+    border-radius: 0px 0px 5px 5px;
+    padding: 3px;
+}
+#main article .date-article, .read{
+    float: right;
+    margin-left: 10px;
+}
+footer{
+    height: 80px;
+    background: #D74F5A;
+    border-radius: 5px 5px 5px 5px;
+    vertical-align: central;
+}
+footer div{
+    padding-top: 35px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+footer span {
+    margin-right: 15px;
+}
